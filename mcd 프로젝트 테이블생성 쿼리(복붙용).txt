@@ -1,0 +1,42 @@
+<<mcd 프로젝트 테이블생성 쿼리문(복붙용)>>
+
+create database mcd;
+use mcd;
+
+create table memeber(
+ id varchar(20) primary key,           
+ passwd varchar(20) not null,           
+ name  varchar(20) not null,           
+ phoneNumber varchar(20) not null,           
+ money int(10) not null default 0 );
+
+create table review (
+ seq int auto_increment primary key,
+ title varchar(200),                            
+ writer  varchar(20),                              
+ content varchar(2000) ,                              
+ order_number varchar(20),                             
+ regdate datetime default CURRENT_TIMESTAMP );
+
+create table menu (
+ foodNumber int auto_increment primary key,
+name varchar(30),
+ price int(10));
+
+create table orderInfo(
+orderNumber int auto_increment primary key,
+orderId varchar(20),
+food int(10),
+totalPrice int(10),
+orderDate datetime default CURRENT_TIMESTAMP,
+state int default 0 );
+
+
+foodNumber | name                          | price |
++------------+-------------------------------+-------+
+|          1 | 1955 Burger                   |  4000 |
+|          2 | Golden Egg burger             |  7500 |
+|          3 | Bacon Tomato Deluxe           |  5700 |
+|          4 | Big Mac                       |  5100 |
+|          5 | Shanghai Burger               |  5100 |
+|          6 | Double Quarter Pounder Burger |  5600

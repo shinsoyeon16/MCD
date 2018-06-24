@@ -1,0 +1,17 @@
+@charset "UTF-8";
+footer{
+	clear:both;
+	width: 60%;
+	float:right;
+	font-size: 10px;
+	margin-right: auto;	
+	margin-left: auto;	
+	margin-top:0;
+	padding:10px;
+	color:white;	
+	text-align:right;
+}
+footer p{
+	border-top: solid #fff 1px;
+	padding : 10px;
+}

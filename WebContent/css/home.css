@@ -1,0 +1,35 @@
+body{
+	text-align:center;
+	background-color: #aa1e1b; 
+}
+section{
+
+	margin-top: 200px;
+}
+.login{
+	padding:50px;
+}
+.login input{
+	width: 450px;
+	height: 30px;
+	padding: 5px;
+	color: #333;
+	border-radius : 8px;
+	margin: 15px;
+}
+.login button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #aa1e1b;
+    text-transform: uppercase;
+    background: #ffd500;
+    border-radius: 3px;      
+	text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+	margin-left : 10px;
+} 

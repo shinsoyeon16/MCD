@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body{
+	background-color: #aa1e1b; 
+}
+section{
+	background-color : #fff;
+	text-align: center;
+	width:60%;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	padding : 50px;
+}
+section .add{
+	float: left;
+	width: 15%;
+	height: 400px;
+	margin: 60px;
+}
+.add{
+	text-align: left;
+}
+.add input {
+	margin:10px;
+	color: #333;
+	width: 150px;
+	height: 13px;
+	padding:5px;
+}
+.add button{
+	margin-left: 500px;
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #aa1e1b;
+    text-transform: uppercase;
+    background: #ffd500;
+    border-radius: 3px;      
+	margin : 10px;	
+}
+.table{
+	width:85%;
+	border-top: solid 3px gray;
+	border-bottom: solid 3px gray;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right:15px;
+	line-height:50px;
+}
+
+section .menu{
+	float: left;
+	width: 15%;
+	height: 400px;
+	margin: 60px;
+}
+.review{
+	text-align: center;
+}
+.review input{
+	margin:10px;
+	color: #333;
+	width: 150px;
+	height: 13px;
+	padding:5px;
+}
+.review button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #aa1e1b;
+    text-transform: uppercase;
+    background: #ffd500;
+    border-radius: 3px;      
+	margin : 5px;
+}
+.menu button {
+    overflow: visible;
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #aa1e1b;
+    text-transform: uppercase;
+    background: #ffd500;
+    border-radius: 3px;      
+	margin : 10px;
+}
